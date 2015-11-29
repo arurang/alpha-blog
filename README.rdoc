@@ -1,1 +1,7 @@
 This is the repositroy for the first alpha-blog app of the Compete Ruby on Rails Develper Course
+
+Validations for user class:
+
+  - username must be present and unique
+  -email must be present and unique
+  -validate email format using regex
