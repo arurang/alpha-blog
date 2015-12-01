@@ -11,9 +11,9 @@
 
         <%= truncate(article.description, length: 100) %>
       </div>
-      <small>Creted by: <%= article.user.username if article.user %>,
+      <small>Created by: <%= article.user.username if article.user %>,
                         <%= time_ago_in_words(article.created_at) %> ago,
-                        <%= time_ago_in_words(article.updated_at) %> ago
+             Updated by:<%= time_ago_in_words(article.updated_at) %> ago
                         </small>
 
      <div class="article-actions">
